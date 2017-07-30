@@ -59,13 +59,11 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.txtCargo = new System.Windows.Forms.TextBox();
+            this.txtCalgo = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnUp = new System.Windows.Forms.Button();
-            this.txtCodigo = new System.Windows.Forms.TextBox();
-            this.btnCargoEM = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.txtnombre_cargo = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -176,7 +174,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(290, 117);
+            this.pictureBox1.Location = new System.Drawing.Point(287, 196);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(312, 263);
             this.pictureBox1.TabIndex = 16;
@@ -184,7 +182,7 @@
             // 
             // txtNaci
             // 
-            this.txtNaci.Location = new System.Drawing.Point(253, 592);
+            this.txtNaci.Location = new System.Drawing.Point(178, 521);
             this.txtNaci.Name = "txtNaci";
             this.txtNaci.Size = new System.Drawing.Size(103, 20);
             this.txtNaci.TabIndex = 19;
@@ -193,7 +191,7 @@
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(253, 645);
+            this.textBox10.Location = new System.Drawing.Point(178, 566);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(103, 20);
             this.textBox10.TabIndex = 20;
@@ -202,7 +200,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(68, 599);
+            this.label10.Location = new System.Drawing.Point(181, 505);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(100, 13);
             this.label10.TabIndex = 21;
@@ -212,11 +210,11 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(71, 652);
+            this.label11.Location = new System.Drawing.Point(181, 550);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(135, 13);
+            this.label11.Size = new System.Drawing.Size(100, 13);
             this.label11.TabIndex = 22;
-            this.label11.Text = "Calculo de Antiguedad";
+            this.label11.Text = "Cal._Antiguedad";
             // 
             // btnGuardar
             // 
@@ -224,7 +222,7 @@
             this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnGuardar.Image = ((System.Drawing.Image)(resources.GetObject("btnGuardar.Image")));
-            this.btnGuardar.Location = new System.Drawing.Point(4, 511);
+            this.btnGuardar.Location = new System.Drawing.Point(2, 631);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(99, 46);
             this.btnGuardar.TabIndex = 27;
@@ -236,7 +234,7 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.Red;
-            this.button5.Location = new System.Drawing.Point(503, 645);
+            this.button5.Location = new System.Drawing.Point(512, 645);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(87, 41);
             this.button5.TabIndex = 28;
@@ -248,7 +246,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(359, 574);
+            this.label9.Location = new System.Drawing.Point(39, 506);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(97, 13);
             this.label9.TabIndex = 17;
@@ -258,9 +256,9 @@
             // 
             this.button6.ForeColor = System.Drawing.Color.Red;
             this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.Location = new System.Drawing.Point(362, 599);
+            this.button6.Location = new System.Drawing.Point(12, 522);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(94, 66);
+            this.button6.Size = new System.Drawing.Size(137, 69);
             this.button6.TabIndex = 29;
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click_1);
@@ -268,9 +266,10 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(12, 611);
+            this.pictureBox3.Location = new System.Drawing.Point(456, 636);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(62, 66);
+            this.pictureBox3.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox3.TabIndex = 30;
             this.pictureBox3.TabStop = false;
             // 
@@ -325,7 +324,7 @@
             // 
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(119, 511);
+            this.button1.Location = new System.Drawing.Point(117, 631);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(87, 46);
             this.button1.TabIndex = 39;
@@ -363,12 +362,12 @@
             this.dateTimePicker3.Size = new System.Drawing.Size(100, 20);
             this.dateTimePicker3.TabIndex = 44;
             // 
-            // txtCargo
+            // txtCalgo
             // 
-            this.txtCargo.Location = new System.Drawing.Point(181, 404);
-            this.txtCargo.Name = "txtCargo";
-            this.txtCargo.Size = new System.Drawing.Size(100, 20);
-            this.txtCargo.TabIndex = 45;
+            this.txtCalgo.Location = new System.Drawing.Point(181, 404);
+            this.txtCalgo.Name = "txtCalgo";
+            this.txtCalgo.Size = new System.Drawing.Size(100, 20);
+            this.txtCalgo.TabIndex = 45;
             // 
             // label12
             // 
@@ -395,7 +394,7 @@
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.Image")));
-            this.btnEliminar.Location = new System.Drawing.Point(224, 511);
+            this.btnEliminar.Location = new System.Drawing.Point(222, 631);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(87, 46);
             this.btnEliminar.TabIndex = 48;
@@ -406,30 +405,13 @@
             // 
             this.btnUp.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUp.Location = new System.Drawing.Point(331, 510);
+            this.btnUp.Location = new System.Drawing.Point(329, 630);
             this.btnUp.Name = "btnUp";
             this.btnUp.Size = new System.Drawing.Size(109, 46);
             this.btnUp.TabIndex = 49;
             this.btnUp.Text = "Actualizar ";
             this.btnUp.UseVisualStyleBackColor = true;
             this.btnUp.Click += new System.EventHandler(this.btnUp_Click);
-            // 
-            // txtCodigo
-            // 
-            this.txtCodigo.Location = new System.Drawing.Point(481, 537);
-            this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(109, 20);
-            this.txtCodigo.TabIndex = 50;
-            // 
-            // btnCargoEM
-            // 
-            this.btnCargoEM.Location = new System.Drawing.Point(399, 411);
-            this.btnCargoEM.Name = "btnCargoEM";
-            this.btnCargoEM.Size = new System.Drawing.Size(152, 23);
-            this.btnCargoEM.TabIndex = 51;
-            this.btnCargoEM.Text = "Cargo Empleados";
-            this.btnCargoEM.UseVisualStyleBackColor = true;
-            this.btnCargoEM.Click += new System.EventHandler(this.btnCargoEM_Click);
             // 
             // label14
             // 
@@ -457,13 +439,11 @@
             this.ClientSize = new System.Drawing.Size(606, 689);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.txtnombre_cargo);
-            this.Controls.Add(this.btnCargoEM);
-            this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.btnUp);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.txtCargo);
+            this.Controls.Add(this.txtCalgo);
             this.Controls.Add(this.dateTimePicker3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dateTimePicker1);
@@ -535,13 +515,11 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DateTimePicker dateTimePicker3;
-        private System.Windows.Forms.TextBox txtCargo;
+        private System.Windows.Forms.TextBox txtCalgo;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnUp;
-        private System.Windows.Forms.TextBox txtCodigo;
-        private System.Windows.Forms.Button btnCargoEM;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox txtnombre_cargo;
     }
